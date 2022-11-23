@@ -3,8 +3,8 @@
     padding: 10px;
 }
 
-.m-t {
-    margin-top: 15px;
+.mg {
+    margin: 10px 0;
 }
 
 
@@ -23,4 +23,3 @@
     min-height: 40px;
     border: 1px solid rgb(29, 13, 255);;
 }
-

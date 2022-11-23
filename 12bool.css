@@ -22,6 +22,10 @@
     max-width: 100%;
 }
 
+.row * {
+    max-width: 100%;
+}
+
 /* COL */
 .row > [class^='col'] {
     flex: 0 0 auto;
@@ -160,5 +164,3 @@
 .j-c-s-b {
     justify-content: space-between;
 }
-
-
