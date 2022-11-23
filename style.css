@@ -1,5 +1,14 @@
 
-.col * {
-    background: rgb(29, 13, 255);
+.row > [class^='col'] {
+    background-color: rgb(29, 13, 255);
     border: 1px solid white;
+    min-height: 50px;
+    display: flex;
+    color: white;
+}
+
+.row > [class^='col'] [class^='col']  {
+    background-color: rgb(48, 170, 48);
+    min-height: 40px;
+    border: 1px solid rgb(29, 13, 255);;
 }
